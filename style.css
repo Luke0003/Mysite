@@ -254,3 +254,73 @@ footer{
   text-align: center;
   color: #FAFAFA;
 }
+
+@media screen and (max-width: 768px) {
+  header{
+    height: 50px;
+  }
+
+  .container{
+    width: 90%;
+  }
+
+  .logo{
+  height: 50px;
+}
+
+  .menu-box{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5%;
+    margin-left: auto;
+    border: 1px solid #FAFAFA;
+  }
+
+  .list-bar{
+    display: block;
+    margin: 5px auto;
+    width: 25px;
+    height: 2px;
+    background-color: #FAFAFA;
+  }
+
+  .list-bar:first-child{
+    margin-top: 10px;
+  }
+
+  .nav-list{
+    display: none;
+  }
+
+  #mv{
+    background-image: url("img/code.png")
+  }
+
+  .production-group{
+    display: block;
+    width: 300px;
+  }
+
+  .production{
+    margin: 0 auto;
+  }
+
+  .production:nth-child(4){
+    margin: 10px auto 10px;
+  }
+
+  .bg-1, .bg-3, .bg-5{
+    display: none;
+  }
+
+  .strength-group{
+    display: block;
+    width: 320px;
+  }
+
+  .contact-group{
+    width: 100%;
+  }
+}
